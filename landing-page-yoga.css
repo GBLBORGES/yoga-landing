@@ -1,0 +1,202 @@
+@media (max-width:700px){
+    .header{
+        height: 10%;
+    }    
+    .container-comments {
+        display: flex;   
+        flex-direction: column; 
+        justify-content: space-evenly;  
+        align-items: center;                  
+    }
+    .container-comments div {
+        width: 90%;
+        height: 90%;
+        padding-top: 10px;
+        margin: 10px;       
+    }    
+}
+* {   
+    padding: 0;
+    margin: 0 ;
+    border: 0;    
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;    
+}
+
+
+.header {
+    display: flex;
+    height: 35%;
+    font-family: "madimi-one-regular";
+    align-items: center;
+    background-image: url('sakura2.avif');
+}
+
+header div h3 {
+    color: white;
+}
+
+
+
+img {
+    width: 100%;
+    height: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    max-width: 450px;
+    max-height: 500px ;
+    
+}
+.img-message{
+    display: flex;
+    align-items: center;
+}
+
+.img-container {
+    width: 50%;
+}
+
+.img-container img {
+    width: 80%;    
+    height: 100%;
+    border-radius: 50%;
+    opacity: 0.8;
+    object-fit: contain;
+}
+
+.header-menu {
+    display: flex;
+    background-color: antiquewhite;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.header-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.classes-vinyasa {
+    display: flex;      
+    font-family: "Madimi One", sans-serif;
+    color:  whitesmoke;       
+    background-color:  #dfc8d9;
+    justify-content: space-between;
+}
+
+.classes-vinyasa div {    
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.classes-vinyasa div img {
+    border-radius: 5%;
+    
+}
+
+.classes-hatha {
+    display: flex;
+    font-family: "Madimi One", sans-serif;
+    color: whitesmoke;   
+    background-color: #dfc8d9 ;
+    justify-content: space-between;
+}
+
+.classes-hatha div {    
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    padding-left: 5px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.classes-hatha div img {
+    border-radius: 5%;
+    
+}
+
+
+.container-comments {
+    display: flex;    
+    justify-content: space-evenly;  
+    align-items: center;
+    padding: 10px;    
+}
+
+.container-comments div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.container-comments div img {
+    width: 35vh;
+    height: 35vh;
+    border-radius: 50%;
+}
+.container-comments div {
+    padding: 3px;
+    border-radius: 10px;
+    background-color: #dfc8d9;
+    box-shadow: 0px 7px 24px rgba(170, 101, 101, 0.4);    
+}
+
+
+
+.footer{
+background:whitesmoke;
+padding:30px 0px;
+font-family: 'Play', sans-serif;
+text-align:center;
+}
+
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+color:rgb(84, 83, 83);
+font-size:0.8em;
+}
+
+.footer .row a{
+text-decoration:none;
+color:rgb(58, 56, 56);
+transition:0.5s;
+}
+
+.footer .row a:hover{
+color:#fff;
+}
+
+.footer .row ul{
+width:100%;
+}
+
+.footer .row ul li{
+display:inline-block;
+margin:0px 30px;
+}
+
+.footer .row a i{
+font-size:2em;
+margin:0% 1%;
+}
+
+
+
+
+
+
+
+
+
